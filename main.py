@@ -85,7 +85,7 @@ def mostrar_logout():
 # Función para cargar logo
 def cargar_logo():
     """Carga el logo si existe"""
-    logo_path = "logo_empresa.png"  # Coloca tu logo con este nombre
+    logo_path = "andes.png"  # Coloca tu logo con este nombre
     if os.path.exists(logo_path):
         try:
             logo = Image.open(logo_path)
